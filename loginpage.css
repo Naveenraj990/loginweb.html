@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(pattern.webp);
+    background-size:cover;
+    
+}
+.container{
+   
+   top: 50%;
+   left: 50%;
+   position: absolute;
+   transform: translate(-50%,-50%);
+   background-color: transparent;
+   padding: 50px;
+   border-radius: 20px;
+   border: solid rgb(115, 113, 113);
+   
+}
+.card{
+   
+    padding: 20px;
+    border: none;
+    margin-top: 20px;
+    
+    
+}
+.carddetails{
+    margin-bottom: 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom:2px solid rgb(255, 255, 255);
+    width: 200px;
+    margin-bottom: 15px;
+    padding: 6px;
+    color:rgb(255, 255, 255);
+}
+.btn{
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    padding: 10px 15px;
+    margin-left:70px;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: beige;
+    outline: color(whi rgb(145, 131, 131) rgb(104, 133, 104) rgb(225, 225, 225));
+
+}
+
+::placeholder{
+    color:rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+a{
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(255, 255, 255);
+    font-size: 13px;
+    margin-left: 4px;
+    margin-top: 15px;
+}
+h1{
+    margin-left: 70px;
+    color:rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: -30px;
+}
+
+label{
+    color:rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    margin-left: -3px;
+    margin-bottom: 20px;
+}
+
